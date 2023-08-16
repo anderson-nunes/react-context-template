@@ -1,14 +1,10 @@
-import { Router } from "react-router-dom"
-import { GlobalState } from './context/GlobalState'
+import Router from './routes/Router';
+import { GlobalState } from './context/GlobalState';
 
-function App() {
+export default function App() {
   return (
-
     <GlobalState>
       <Router />
     </GlobalState>
-
-  )
+  );
 }
-
-export default App
